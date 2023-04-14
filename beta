@@ -1,8 +1,3 @@
-local Reason = "You are not whitelisted" --Insert Reason Here
-local Player = "aharras" --Full player name here
-function Kick(Pl,R)
-    game.Players:FindFirstChild(Pl):Kick(R)
-end
-pcall(Kick,Player,Reason)
+
 
 loadstring(game:HttpGet(("https://raw.githubusercontent.com/mstudio45/MSDOORS/main/MSDOORS.lua"),true))()
