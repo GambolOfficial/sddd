@@ -1105,7 +1105,7 @@ function RayfieldLibrary:CreateWindow(Settings)
 	Topbar.Title.Text = Settings.Name
 	Main.Size = UDim2.new(0, 450, 0, 260)
 	Main.Visible = true
-	Main.BackgroundTransparency = 1
+	Main.ImageTransparency = 1
 	LoadingFrame.Title.TextTransparency = 1
 	LoadingFrame.Subtitle.TextTransparency = 1
 	Main.Shadow.Image.ImageTransparency = 1
@@ -1228,7 +1228,7 @@ function RayfieldLibrary:CreateWindow(Settings)
 			KeyMain.NoteMessage.Text = Settings.KeySettings.Note or "No instructions"
 
 			KeyMain.Size = UDim2.new(0, 467, 0, 175)
-			KeyMain.BackgroundTransparency = 1
+			KeyMain.ImageTransparency = 1
 			KeyMain.EShadow.ImageTransparency = 1
 			KeyMain.Title.TextTransparency = 1
 			KeyMain.Subtitle.TextTransparency = 1
