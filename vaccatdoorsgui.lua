@@ -1105,7 +1105,7 @@ function RayfieldLibrary:CreateWindow(Settings)
 	Topbar.Title.Text = Settings.Name
 	Main.Size = UDim2.new(0, 450, 0, 260)
 	Main.Visible = true
-	Main.ImageTransparency = 1
+	Main.BackgroundTransparency = 1
 	LoadingFrame.Title.TextTransparency = 1
 	LoadingFrame.Subtitle.TextTransparency = 1
 	Main.Shadow.Image.ImageTransparency = 1
@@ -3044,7 +3044,7 @@ function RayfieldLibrary:CreateWindow(Settings)
 			ColorPicker.Interact.Position = UDim2.new(0.5, 0, 0.5, 0)
 			ColorPicker.RGB.Position = UDim2.new(0, 17, 0, 70)
 			ColorPicker.HexInput.Position = UDim2.new(0, 17, 0, 90)
-			Main.ImageTransparency = 1
+			Main.BackgroundTransparency = 1
 			Background.BackgroundTransparency = 1
 			local opened  = false 
 			local mouse = game.Players.LocalPlayer:GetMouse()
