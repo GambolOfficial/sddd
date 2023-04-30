@@ -8,7 +8,7 @@ Original by Sirius
 -------------------------------
 Arrays  | Designing + Programming + New Features
 
-]]
+]].
 
 
 
@@ -1103,17 +1103,17 @@ end
 function RayfieldLibrary:CreateWindow(Settings)
 	local Passthrough = false
 	Topbar.Title.Text = Settings.Name
-	Main.Size = UDim2.new(0, 450, 0, 260)
+	Main.Size = UDim2.new(0, 480, 0, 350)
 	Main.Visible = true
 	Main.BackgroundTransparency = 1
 	LoadingFrame.Title.TextTransparency = 1
 	LoadingFrame.Subtitle.TextTransparency = 1
 	Main.Shadow.Image.ImageTransparency = 1
 	LoadingFrame.Version.TextTransparency = 1
-	LoadingFrame.Title.Text = Settings.LoadingTitle or "Arrayfield Interface Suite"
-	LoadingFrame.Subtitle.Text = Settings.LoadingSubtitle or "by Sirius | Meta"
-	if Settings.LoadingTitle ~= "Arrayfield Interface Suite" then
-		LoadingFrame.Version.Text = "Arrayfield UI"
+	LoadingFrame.Title.Text = Settings.LoadingTitle or "MAXED Library"
+	LoadingFrame.Subtitle.Text = Settings.LoadingSubtitle or "by Gambol | Meta"
+	if Settings.LoadingTitle ~= "MAXED Library" then
+		LoadingFrame.Version.Text = "Maxed UI"
 	end
 	Topbar.Visible = false
 	Elements.Visible = false
